@@ -140,14 +140,35 @@ table {
 	box-sizing: border-box;
 }
 
-html,
-body {
+html {
+	font-size: 62.5%;
+}
+
+h1 h2 h3 h4 h5 {
+	font-size: 1.6rem;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 2rem;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+html body {
 	border: solid green;
 	width: 100%;
 	height: 100%;
 }
 
 header {
+
 	ul {
 		width: 80%;
 		border: solid red;
@@ -155,30 +176,62 @@ header {
 		display: flex;
 		justify-content: flex-end;
 		margin: 0 auto;
+		padding: 2rem;
+
+		li {
+			padding: .4rem;
+		}
 
 	}
 }
 
 .top-container {
+	background-color: #DEDEDE;
+	height: 40rem;
 	width: 80%;
 	border: solid red;
 	margin: 0 auto;
 
-	.inner-top {
+	img {
+		margin-left: 1rem;
+		margin-top: 2rem;
+	}
 
-		.lower-top {}
+	.lower-top {
+		margin-top: 1rem;
+
+		button {
+			border-radius: 2rem;
+			background-color: #555555;
+		}
 	}
 
 }
 
 .middle-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	width: 80%;
+	height: 20rem;
 	border: solid red;
-	margin: 0 auto;
+	margin: 0rem auto;
+	margin-bottom: 1rem;
 
 	.middle-content {
 		border: solid blue;
-		width: 38%;
+		width: 45%;
+
+		ul {
+			font-size: 1.6rem;
+
+			li {
+				border: solid grey;
+				border-width: .01rem;
+				padding: .9rem;
+			}
+
+		}
 
 
 	}
@@ -186,8 +239,17 @@ header {
 
 .lower-container {
 	width: 80%;
+	height: 20rem;
 	border: solid red;
 	margin: 0 auto;
 
-	table {}
+	table {
+		width: 80%;
+		border: solid blue;
+		margin: 0 auto;
+
+		td {
+			// margin-left:
+		}
+	}
 }
