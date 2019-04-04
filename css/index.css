@@ -1,1 +1,228 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 h2 h3 h4 h5 {
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 48px;
+  margin: 2rem;
+}
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 1.6rem;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+header ul {
+  width: 80%;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  padding: 2rem;
+}
+header ul li {
+  padding: 0.4rem;
+}
+.gray-bg {
+  background-color: #DEDEDE;
+}
+.content-width {
+  width: 80%;
+}
+.top-container {
+  background-color: #DEDEDE;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.top-container div {
+  padding: 3rem;
+}
+.top-container .lower-top {
+  margin-top: 1rem;
+}
+.top-container .lower-top button {
+  border-radius: 2rem;
+  background-color: #555555;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  width: 15rem;
+  height: 5rem;
+}
+.middle-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: Center;
+  height: 20rem;
+  margin: 0 auto;
+}
+.middle-container .middle-content {
+  width: 49.5%;
+}
+.middle-container .middle-content li {
+  border: solid grey;
+  border-width: 0.01rem;
+  padding: 0.9rem;
+  font-size: 1.6rem;
+}
+.lower-container {
+  width: 80%;
+  height: 20rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.lower-container table {
+  width: 80%;
+  height: 20rem;
+  margin: 0 auto;
+}
+footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: gray;
+  padding: 4rem;
+  display: flex;
+  justify-content: Center;
+  color: white;
+}
