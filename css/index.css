@@ -147,13 +147,11 @@ p {
   font-size: 1.6rem;
 }
 html body {
-  border: solid green;
   width: 100%;
   height: 100%;
 }
 header ul {
   width: 80%;
-  border: solid red;
   font-size: 1.6rem;
   display: flex;
   justify-content: flex-end;
@@ -163,10 +161,15 @@ header ul {
 header ul li {
   padding: 0.4rem;
 }
+.gray-bg {
+  background-color: #DEDEDE;
+}
+.content-width {
+  width: 80%;
+}
 .top-container {
   background-color: #DEDEDE;
   width: 80%;
-  border: solid red;
   margin: 0 auto;
   margin-bottom: 3rem;
 }
@@ -186,16 +189,14 @@ header ul li {
   height: 5rem;
 }
 .middle-container {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 80%;
+  justify-content: Center;
   height: 20rem;
-  border: solid red;
-  margin: 0rem auto;
+  margin: 0 auto;
 }
 .middle-container .middle-content {
-  border: solid blue;
   width: 49.5%;
 }
 .middle-container .middle-content li {
@@ -207,12 +208,21 @@ header ul li {
 .lower-container {
   width: 80%;
   height: 20rem;
-  border: solid red;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 .lower-container table {
   width: 80%;
   height: 20rem;
-  border: solid blue;
   margin: 0 auto;
+}
+footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: gray;
+  padding: 4rem;
+  display: flex;
+  justify-content: Center;
+  color: white;
 }
