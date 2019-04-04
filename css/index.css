@@ -165,14 +165,13 @@ header ul li {
 }
 .top-container {
   background-color: #DEDEDE;
-  height: 40rem;
   width: 80%;
   border: solid red;
   margin: 0 auto;
+  margin-bottom: 3rem;
 }
-.top-container img {
-  margin-left: 1rem;
-  margin-top: 2rem;
+.top-container div {
+  padding: 3rem;
 }
 .top-container .lower-top {
   margin-top: 1rem;
@@ -180,6 +179,11 @@ header ul li {
 .top-container .lower-top button {
   border-radius: 2rem;
   background-color: #555555;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  width: 15rem;
+  height: 5rem;
 }
 .middle-container {
   display: flex;
@@ -189,19 +193,16 @@ header ul li {
   height: 20rem;
   border: solid red;
   margin: 0rem auto;
-  margin-bottom: 1rem;
 }
 .middle-container .middle-content {
   border: solid blue;
-  width: 45%;
+  width: 49.5%;
 }
-.middle-container .middle-content ul {
-  font-size: 1.6rem;
-}
-.middle-container .middle-content ul li {
+.middle-container .middle-content li {
   border: solid grey;
   border-width: 0.01rem;
   padding: 0.9rem;
+  font-size: 1.6rem;
 }
 .lower-container {
   width: 80%;
@@ -211,6 +212,7 @@ header ul li {
 }
 .lower-container table {
   width: 80%;
+  height: 20rem;
   border: solid blue;
   margin: 0 auto;
 }
